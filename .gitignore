@@ -21,3 +21,5 @@ summaries/
 # IDE
 .vscode/
 .idea/
+
+echo "error.txt" >> .gitignore
