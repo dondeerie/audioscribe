@@ -23,3 +23,5 @@ summaries/
 .idea/
 
 echo "error.txt" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "**/.DS_Store" >> .gitignore
