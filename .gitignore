@@ -8,16 +8,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Audio files
-*.wav
-*.mp3
-*.m4a
-
-# Output files
-output/
-transcripts/
-summaries/
-
 # IDE
 .vscode/
 .idea/
@@ -25,3 +15,6 @@ summaries/
 echo "error.txt" >> .gitignore
 echo ".DS_Store" >> .gitignore
 echo "**/.DS_Store" >> .gitignore
+echo "transcript_formatted.txt" >> .gitignore
+echo "transcript_output.txt" >> .gitignore
+echo "transcript_summary.txt" >> .gitignore
