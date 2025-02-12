@@ -20,17 +20,14 @@ transcript_formatted.txt
 transcript_output.txt
 transcript_summary.txt
 
-# Temp files
-output/temp/*
-**/temp/*
-
-# Keep output directory structure but ignore temp files
+# Keep output folders and their contents
 !output/
+!output/*/
 !output/summaries/
 !output/transcripts/
-!output/temp/.gitkeep
-!transcripts/*.txt
-!summaries/*.txt
-
-# Ensure specific output files are tracked
+!output/temp/
 !output/**/*.txt
+
+# Temp directory contents
+output/temp/*
+!output/temp/.gitkeep
