@@ -13,6 +13,7 @@ __pycache__/
 # System files
 .DS_Store
 **/.DS_Store
+._*
 
 # Output files in tests directory
 transcript_formatted.txt
@@ -28,6 +29,8 @@ output/temp/*
 !output/summaries/
 !output/transcripts/
 !output/temp/.gitkeep
+!transcripts/*.txt
+!summaries/*.txt
 
 # Ensure specific output files are tracked
 !output/**/*.txt
