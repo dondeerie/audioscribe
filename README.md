@@ -44,7 +44,7 @@ python src/transcribe.py
 
 ## Installation
 1. Clone this repository:
-   git clone https://github.com/yourusername/audioscribe.git
+   git clone https://github.com/dondeerie/audioscribe.git
    cd audioscribe
 
 2. Create and activate virtual environment:

@@ -1,9 +1,7 @@
-# Environment
+# Environment variables and virtual environments
 .env
 venv/
 env/
-
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -12,9 +10,24 @@ __pycache__/
 .vscode/
 .idea/
 
-echo "error.txt" >> .gitignore
-echo ".DS_Store" >> .gitignore
-echo "**/.DS_Store" >> .gitignore
-echo "transcript_formatted.txt" >> .gitignore
-echo "transcript_output.txt" >> .gitignore
-echo "transcript_summary.txt" >> .gitignore
+# System files
+.DS_Store
+**/.DS_Store
+
+# Output files in tests directory
+transcript_formatted.txt
+transcript_output.txt
+transcript_summary.txt
+
+# Temp files
+output/temp/*
+**/temp/*
+
+# Keep output directory structure but ignore temp files
+!output/
+!output/summaries/
+!output/transcripts/
+!output/temp/.gitkeep
+
+# Ensure specific output files are tracked
+!output/**/*.txt
